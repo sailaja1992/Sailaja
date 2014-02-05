@@ -1,0 +1,21 @@
+
+<div data-role="page" id="page1">
+
+     <div data-role="header">
+          <h1>TRAVEL ROUTER</h1>
+     </div>
+<section>
+     <p>Enter departing city name<input data-bind='value: start' /></p> 
+   </section>
+    <section>
+     <p>Enter destination city name<input data-bind='value: end' /></p> 
+   </section>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+
+
+<div id="map"></div>
+
+
+<p>Route map</p>
+<button id="button">Show path</button>
+<div id="map_canvas" style="height: 400px; width: 400px"></div>
