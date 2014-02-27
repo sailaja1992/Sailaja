@@ -1,0 +1,75 @@
+
+    
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="96dp" 
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="291dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text="Hello There!"
+            android:textSize="25sp" />
+
+<TextView
+    android:layout_width="244dp"
+    android:layout_height="60dp"
+    android:gravity="center"
+    android:text="Manage Contacts"
+    android:textSize="26sp" />
+<TextView
+    android:layout_width="300dp"
+    android:layout_height="38dp"
+    android:gravity="left"
+    android:text="Enter Name"
+    android:textSize="18sp" />
+
+<EditText
+    android:id="@+id/t1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPersonName" >
+   
+
+    <requestFocus />
+</EditText>
+<TextView
+    android:layout_width="300dp"
+    android:layout_height="38dp"
+    android:gravity="left"
+    android:text="Enter phone#"
+    android:textSize="18sp" />
+
+<EditText
+    android:id="@+id/t2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="phone" />
+
+<Button
+    android:id="@+id/bSQLUpdate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:text="Add Contact" />
+<Button
+    android:id="@+id/bSQLshow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:text="Show all" />
+
+    </LinearLayout>
+
+
